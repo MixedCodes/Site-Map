@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About us</title>
+	<style>
+		* {
+			padding: 2px;
+			margin: 0px;
+		}
+		ul {
+		  list-style: none;
+		}
+		.nav li{
+		  display: inline-block; 
+		  padding: 0 7 0 0px; 
+		  position: relative;
+
+		}
+		.nav li:not(:last-child)::after{
+		  content: ""; 
+		  border: .5px solid black;
+		  border-width: .5px .5px 0 0;
+		  position: absolute; 
+		  right: -3px; 
+		  top: 0; 
+		  height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<ul class="nav">
+		<li><a href=index.html>Home</a></li>
+		<li><a href=aboutus.html>About us</a></li>
+		<li><a href=work.html>Our Works</a></li>
+		<li><a href=contact.html>Contact us</a></li>
+	</ul>
+	<br>
+	<p>About us.</p>
+	<ul>
+		<li><a href=048.html>048</a></li>
+		<li><a href=052.html>052</a></li>
+		<li><a href=055.html>055</a></li>
+		<li><a href=058.html>058</a></li>
+		<li><a href=059.html>059</a></li>
+	</ul>
+</body>	
+</html>
